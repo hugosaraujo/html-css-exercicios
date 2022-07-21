@@ -14,11 +14,16 @@ body {
 
 .titulo-artigo {
     font-size: 16px;
+    margin: 0 0 15px
 }
 
 .post {
     background-color: #ffffff;
-    padding: 10px;
-    border: blue 3px solid;
-    margin: 10px
+    padding: 15px;
+    border: 3px solid blue;
+    margin: 15px 10px 15px 10px
+}
+
+.corpo-texto {
+    margin-top: 15px;
 }
