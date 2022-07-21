@@ -4,12 +4,23 @@
 
 body {
     background: #fcfcfc;
+    font-family: Verdana;
 }
 
 #titulo,
 .subtitulo,
 .titulo-artigo {
     color: blue;
+}
+
+a {
+    text-decoration: line-through;
+    color: #505050
+}
+
+#titulo {
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .titulo-artigo {
@@ -31,4 +42,5 @@ body {
 
 .corpo-texto {
     margin-top: 15px;
+    text-transform: capitalize;
 }
