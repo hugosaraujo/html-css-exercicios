@@ -5,6 +5,8 @@
 body {
     background: #fcfcfc;
     font-family: Verdana;
+    max-width: 940px;
+    margin: 0 auto
 }
 
 #titulo,
@@ -14,7 +16,7 @@ body {
 }
 
 a {
-    text-decoration: line-through;
+    text-decoration: none;
     color: #505050
 }
 
@@ -30,6 +32,7 @@ a {
 
 .banner {
     border-radius: 5px;
+    width: 100%
 }
 
 .post {
@@ -43,4 +46,9 @@ a {
 .corpo-texto {
     margin-top: 15px;
     text-transform: capitalize;
+}
+
+.lista {
+    list-style-type: none;
+    padding-left: 15px;
 }
